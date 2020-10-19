@@ -22,6 +22,80 @@ Released   : 20131115
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
+<!-- javascript for button -->
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<script>
+function myFunction2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<script>
+function myFunction3() {
+  var dots = document.getElementById("dots3");
+  var moreText = document.getElementById("more3");
+  var btnText = document.getElementById("myBtn3");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<script>
+function myFunction4() {
+  var dots = document.getElementById("dots4");
+  var moreText = document.getElementById("more4");
+  var btnText = document.getElementById("myBtn4");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<!-- end script for button -->
+
 </head>
 <body>
 <div id="header-wrapper">
@@ -32,7 +106,7 @@ Released   : 20131115
 		<div id="menu">
 			<ul>
 				<li class="current_page_item"><a href="Aboutus.html" accesskey="1" title="">Meet Us</a></li>
-				<li><a href="#" accesskey="2" title="">Our Ideal Job</a></li>
+				<li><a href="jobs.html" accesskey="2" title="">Our Ideal Job</a></li>
 				<li><a href="interview.html" accesskey="" title="">Interview</a></li>
 				<li><a href="technologies.html" accesskey="4" title="">IT Technologies</a></li>
 				<li><a href="#" accesskey="5" title="">Project Idea</a></li>
@@ -60,7 +134,7 @@ Cryptocurrency essentially takes out the need for middleman in financial transac
 - Much lower or no transactional fees due to the transaction being peer-to-peer;<br>
 - The time it takes to complete a transaction with an overseas entity is much faster compared to traditional means of sending currency; <br>
 - Transactions are very unlikely to be impacted by fraudulent activity and forgery due to the cryptography technology utilised, which is secured by a series of complex coding and mathematical equations.<br></p>
-
+<span id="dots">...</span><br><span id="more">
 <p>To get started, a user requires a digital wallet to store and use cryptocurrencies. Much like cash, if a user loses or forgets the access ‘key’ to their wallet, it is extremely difficult to recover. Although the cryptocurrency is still in existence, the ownership of this currency would ultimately be lost.</p>
 
 <p>Cryptocurrencies are appealing to certain users due to the technology being able to provide a level of anonymity or pseudonymity. Although all transactions are recorded and verified on a public ledger, there is no name or identity verification required to open an account or to complete a transaction. Personal information cannot be traced back from a transaction. Although it is not as anonymous as trading cash, it is the next closest thing, and has the advantage of a global reach. Due to this factor, levels of illegal activity have been completed via cryptocurrency transfers. However, criminal activity is evident in all forms of transactions, so this is not an issue exclusive to cryptocurrency.</p>
@@ -82,25 +156,49 @@ Cryptocurrency essentially takes out the need for middleman in financial transac
 <p>For cryptocurrency to become this level of prevalence in our lives, a lot of technological factors would have to improve. Currently as it stands, cryptocurrencies are being used primarily as part of investment portfolios rather than for regular payments. Bitcoin, the cryptocurrency with the current largest user base on the market, would not be able to cope at its current levels with an increase in volume of transactions. This is due to the complexity of its transactional processing capabilities, which is both a negative and a positive in its case, being both time consuming and limited in resources (Reserve Bank of Australia 2020).</p>
 
 <p>Like with any new technology, there will be a slow transition, making small changes to our everyday habits, or perhaps even changing or alleviating ourselves of ties to any financial institutions. But like with any new technology, the opportunities and impact that this could bring to our lives could be monumental.
-</p>
+</p></span><button onclick="myFunction()" id="myBtn">Read more</button>
 </div>
 		<div class="extra2 margin-btm container">
 
 <h2>Cybersecurity</h2><br>
-<p>Cryptocurrency is a decentralised digital currency that runs on blockchain technology. Much like cash, it facilitates peer-to-peer transactions, without the requirement of a central financial institute to oversee the transaction, or for the two parties to even know or trust the other. (Reserve Bank of Australia 2020).<br>
+<p>There continues to be an exponential growth in the virtualisation of our society through the expansion of the Internet of Things (IoT). As the demand for internet-based resources increases, so too does the challenge to protect private and professional hardware, software, and data. Cybersecurity professionals rely on sophisticated technology and are shifting towards detection methods to prevent cyber-attacks. It is important to note that even the most efficient technologies will not prevent human error, added measures must be taken to educate and bring awareness to users as well.</p>
+
+<p>The most promising Artificial Intelligence (AI) technology associated with cybersecurity today is Deep Learning (DL), a subset of Machine Learning (ML). This is an example of technology making an impact in cybersecurity, ‘it is the endeavour to replicate or simulate human intelligence in machines’ (Built In, 2020). ‘Today, nearly all software in every industry – especially in security – use at least some form of AI’ (Caspi, 2020). Deep Learning refers to technology that acts to mimic the human brain using neural networks. Inspired by biological neural networks these systems use layers programmed to perform specific tasks, like neurons. Unlike traditional machine learning, ‘deep learning is capable of training directly on raw data without the need for feature extraction.’ (Caspi, 2020). </p>
+<span id="dots2">...</span><br><span id="more2">
+<p>DL can be separated into two categories; supervised and unsupervised systems, the main difference being the latter requires less human training for outputs, because it relies on patterns to learn more independently. Both methods require large data sets and computational power (Raicea, 2020). Most cybersecurity mechanisms today are supervised systems and the more advanced unsupervised DL mechanisms ‘are still in an emerging phase and experimentation’ (Kompella, 2020). AI that perfectly simulates the human brain, independently of the human component does not yet exist. </p>
+<p>DL uses complex algorithms and architectures, and its capabilities make it applicable in all facets of Information Technology (IT) and all industries. DL is superior to traditional ML and enhances Intrusion Detection and Prevention Systems (IDS/IPS) by providing real-time detection and prevention. A DL system can learn using the data it is subjected to and recognise how a system behaves. This ability enables it to detect Malware threats that are not obvious to human analysts, by identifying behaviours that are not consistent with usual behaviour patterns. This ability to recognise behaviour can be describe by User and Entity Behavior Analytics (UEBA). This technology uses sophisticated techniques to protect a system and detect any threats internally and externally of a network (Infocyte, 2020). AI is also used in biometrics that we are familiar with through our personal device security options.</p>
+<p>The shift from Ml towards DL is inevitable, recent statistics state that cybersecurity currently consists of only ‘2% deep learning, 98% traditional machine learning’ (Ismail, 2020). The future of DL in cybersecurity is likely to be inspired by cyber threat trends such as phishing scams, deepfakes, ransomware and data leaks to name a few. Attackers and defenders alike will benefit from this technology, and so it is important to continue developing DL defence mechanisms. This will empower systems to anticipate the sophistication of these attacks and make informed developments. ‘Future development of deep learning technologies will continue to advance its usefulness for cybersecurity’ (Samsung Catalyst, 2020). Artificial neural networks make DL systems the advanced mechanisms they are and fine tuning these will have a huge impact on this technology. </p>
+<p>AI is important in cybersecurity because of its the potential to automate these preventative measures (Kompella, 2020), and achieve analysis at speeds and quantities unlike the human component. The evolution of technology is occurring at unprecedented rates and the impact of this development, particularly in security, will depend on the creativity of attackers and the potential of cybersecurity developers to anticipate future attacks. DL continues to focus on programming systems that can detect anomalies that are bypass algorithms and non-explicit programming.</p>
+<p>Recent Australian statistics show that ‘Attacks on IoT devices tripled in the first half of 2019’ (Fruhlinger, 2020). Now more than ever, it is necessary to employ systems that can detect and prevent threats that can compete with the rate at which this occurs. Artificial Intelligence: supervised or unsupervised, applications rely on historical data to apply logic, and the more data and activity that these systems can interpret, the more ‘intelligently’ they are able to perform. Time and greater volumes of relevant data can only improve the capabilities of this technology. </p>
+<p>IoT brings security threats into our physical life as trends of wearable technology become increasingly popular and through the prevalence of diverse personal and professional platforms available to users (Hitechies Enterprise Solutions, 2020). Cybersecurity implications can affect numerous industries and thus likely to affect essentially anyone who lends their information to an organisation or even platform. </p>
+<p>Cybersecurity should be at the forefront of our concern. Rare is the individual that does not encounter the use of internet-connected technology in a day, whether it be in a personal or professional sense. It is easy to forget that we are also connected to organisations like government facilities that also depend on technology to store our more sensitive data. DL applications in cybersecurity will have an impact on all personal and professional networks as cyber threats become more sophisticated and widespread. </p>
+<p>The developments of DL are likely to go unnoticed on the surface, however as an individual pursuing a career in cybersecurity the potential of Artificial Intelligence and Deep Learning is of great interest to me. This technology has a ubiquitous presence across numerous industries and IT facets, indicating its importance in the future of our Information Age. DL will create a benchmark for personal and professional security systems. </p>
+<p>Amongst my friends and family, the biggest impact will be the level of security of communication devices as well as online social media and communication applications. An example of a common cyber threat mentioned earlier, is phishing scams; hackers aim to access personal information through intriguing messages and usually succeed through human curiosity with costly consequences for victims. DL has the potential to detect these threats through pattern recognition and address them in real-time before any human errors occur, again going unnoticed. Deep learning technologies are making an impact in AI and likely already impact our daily lives beyond cybersecurity as our interest in smarter technology develops. </p>
+</span><button onclick="myFunction2()" id="myBtn2">Read more</button>
 </div>
+
 		<div class="extra2 margin-btm container">
 	<h2>Raspberry Pi</h2><br>
-	<p>Cryptocurrency is a decentralised digital currency that runs on blockchain technology. Much like cash, it facilitates peer-to-peer transactions, without the requirement of a central financial institute to oversee the transaction, or for the two parties to even know or trust the other. (Reserve Bank of Australia 2020).<br>
+	<p>Cryptocurrency is a decentralised digital currency that runs on blockchain technology. Much like cash, it facilitates peer-to-peer transactions, without the requirement of a central financial institute to oversee the transaction, or for the two parties to even know or trust the other. (Reserve Bank of Australia 2020).</p>
+<span id="dots3">...</span><br><span id="more3">
+	<p> Lorem ipsum nkjsnd nwoeuqeou</p>
+	<p> Lorem ipsum nkjsnd nwoeuqeou</p>
+	<p> Lorem ipsum nkjsnd nwoeuqeou</p>
+	<p> Lorem ipsum nkjsnd nwoeuqeou</p>
+</span><button onclick="myFunction3()" id="myBtn3">Read more</button>
 	</div>
 			<div class="extra2 margin-btm container">
 		<h2>Robots</h2><br>
-		<p>Cryptocurrency is a decentralised digital currency that runs on blockchain technology. Much like cash, it facilitates peer-to-peer transactions, without the requirement of a central financial institute to oversee the transaction, or for the two parties to even know or trust the other. (Reserve Bank of Australia 2020).<br>
+		<p>Cryptocurrency is a decentralised digital </p>
+		<span id="dots4">...</span><br><span id="more4">
+		<p>currency that runs on blockchain technology. Much like cash, it facilitates peer-to-peer transactions, without the requirement of a central financial institute to oversee the transaction, or for the two parties to even know or trust the other. (Reserve Bank of Australia 2020).</p>
+</span><button onclick="myFunction4()" id="myBtn4">Read more</button>
+</div>
 
-		<p><i><a href="https://web.microsoftstream.com/video/1f5fb3fa-e10d-4d39-80b7-1a6c8c74c0cc" target=blank>Link to our Reference list is located here.</a></i></p>
+		<p><i><a href="x" target=blank>Link to our Reference list is located here.</a></i></p>
 												</var>	<a href="index.html" class="button">Home</a>
 			</div>
-		</div>
+
 
 			<!-- <div class="ebox2">
 				<div class="title">

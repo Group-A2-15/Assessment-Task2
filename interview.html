@@ -21,6 +21,23 @@ Released   : 20131115
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<script>
+function myFunction5() {
+  var dots = document.getElementById("dots5");
+  var moreText = document.getElementById("more5");
+  var btnText = document.getElementById("myBtn5");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
 
 </head>
 <body>
@@ -32,7 +49,7 @@ Released   : 20131115
 		<div id="menu">
 			<ul>
 				<li class="current_page_item"><a href="Aboutus.html" accesskey="1" title="">Meet Us</a></li>
-				<li><a href="#" accesskey="2" title="">Our Ideal Job</a></li>
+				<li><a href="jobs.html" accesskey="2" title="">Our Ideal Job</a></li>
 				<li><a href="interview.html" accesskey="" title="">Interview</a></li>
 				<li><a href="technologies.html" accesskey="4" title="">IT Technologies</a></li>
 				<li><a href="#" accesskey="5" title="">Project Idea</a></li>
@@ -50,7 +67,7 @@ Released   : 20131115
 			<!-- <div class="ebox1"> -->
 				<div class="title">
 					<h2>Interview with an I.T. professional</h2>
-					<span class="byline">We invited Edward Xi from Planit to talk to us about his work as a Cybersecurity consultant.<br>
+					<span class="byline">We invited Edward Xi from Planit to chat to us about his work as a Cybersecurity consultant.<br>
 					Our interview with Edward took place on Thursday 15th October, 2020.</span>
 				</div>
 				<h3>Summary</h3><br>
@@ -62,8 +79,11 @@ Released   : 20131115
 					<p>As a consultant a lot of time is spent with client management providing advice and guidance, or at the base office accessing, hacking and testing client systems remotely. </p>
 						<p><b>What aspect of their position is most challenging?</b></p>
 						<p>The most challenging aspects of security are building and maintaining a comprehensive knowledge of the latest technology and techniques, and convincing clients who may not yet have experienced any security incidents of the value of investing time and money in setting up and maintaining security systems and testing regimes. Security professionals deal with a shortage of skilled resources as security requires significant experience in other areas and there is limited appetite for investing time to train lesser skilled professionals.</p>
-
-						<h3>Interview Transcript</h3><br>
+					</div>
+					<div class="extra2 margin-btm container">
+<h3>Interview Transcript</h3><br>
+						<p>Please find the full transcript with our chat with Edward below</p>
+						<span id="dots5">...</span><br><span id="more5">
 							<p>Michelle: We are doing this course at RMIT and we wanted to talk to someone to tell us what it is like beyond study, what it is like really being out there doing what you do.<br>
 								Edward: Ask me anything<br>
 								M: We have a couple of aspiring security people here so we thought it would be great having you along tonight.
@@ -165,11 +185,9 @@ E: It is about managing risk. If you put them all in cloud and a SAAS password m
 J: What is the best way to protect your devices?<br>
 
 E: Keep your system up to date.  Keep your software up to date. Install all patches. Use complex passwords. Don’t click on random websites or download random files. If you are technical enough use a non-admin account for your day to day browsing. These are easy to do. Unless you are my grandfather!<br></p>
+</span><button onclick="myFunction5()" id="myBtn5">Read more</button><br>
 
-
-
-
-		<p><i><a href="https://web.microsoftstream.com/video/1f5fb3fa-e10d-4d39-80b7-1a6c8c74c0cc" target=blank>Link to our Ms Teams video is located here.</a></i></p>
+		<br><p><i><a href="https://web.microsoftstream.com/video/1f5fb3fa-e10d-4d39-80b7-1a6c8c74c0cc" target=blank>Link to our Ms Teams video is located here.</a></i></p>
 												</var>	<a href="index.html" class="button">Home</a>
 			</div>
 
