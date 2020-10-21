@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Erubescent
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131115
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+<!-- javascript for button -->
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<script>
+function myFunction2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<!-- end script for button -->
+
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="index.html">Team 15</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="Aboutus.html" accesskey="1" title="">Meet Us</a></li>
+				<li><a href="jobs.html" accesskey="2" title="">Our Ideal Job</a></li>
+				<li><a href="interview.html" accesskey="" title="">Interview</a></li>
+				<li><a href="technologies.html" accesskey="4" title="">IT Technologies</a></li>
+				<li><a href="project.html" accesskey="5" title="">Project Idea</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="header-featured"> </div>
+
+</div>
+<div id="wrapper">
+	<div id="featured-wrapper">
+
+		<div class="extra2 margin-btm container">
+			<!-- <div class="ebox1"> -->
+				<div class="title">
+					<h2>Project Idea</h2>
+					<span class="byline">Raspberry Pi based Integrated SSTV Encoder/Decoder, with End to End Encryption.</span>
+				</div>
+				<h3>Overview</h3><br>
+				<p>The objective of this project is to recreate an encoder/decoder for images and video sent by slow scan television. Slow Scan Television (SSTV) is a way of transmitting/receiving an image or series of images or video using low frequency radio transmissions. Standard analog television requires a bandwidth of 8 MHz wide channels, however SSTV only requires a bandwidth of 3Khz. (Wikipedia, 2020). With Slow Scan Television, the information for the image or series of images is encoded into a tone, which is transmitted and then when received and encoded it reverts back to the original image. (Wikipedia, 2020)</p>
+          <p>This YouTube video shows a demonstration of SSTV, as you can see as the tones change, the images on the screen change: <a href="https://www.youtube.com/watch?v=u3k6Xt30Z7g" target=blank>link here</a>.</p>
+          <p>SSTV is mostly only utilised by “Ham” Radio enthusiasts, however this technology has much wider potential applications for more effective communications systems - especially for emergency services/first responder/ remote workers; particularly for emergency workers in the case of natural disaster. This will begin by building a proof of concept by using a
+          Raspberry pi 3 or 4 board, an integrated touch screen housing, and ganged 18650 battery removable power supplies, a USB microphone and a miniature speaker connected by the 3.5mm output jack present on the Raspberry Pi board. This initial proof of concept will run an android emulator, running android based apps.</p>
+
+      <h3>Motivation</h3><br>
+      <p>UHF/VHF frequency radio is ubiquitous to just about any emergency and security service, however traditionally only verbal information has been transmitted. However, being conditioned to have access to the sheer convenience of being able to make and phone calls, send text messages, MMS, instant messages, and emails.  This is similar with broadcast radio, where ITU states that: </p>
+      <p>“In the initial hours in the aftermath of a disaster, people want to be informed so that they understand what is happening and assess how they, their families and friends can receive support. Most recently, radio has played a key role in the Australian Bushfire response, helping responders to keep local populations up-to-date and coordinate and execute evacuation plans“(ITU, 2020, para 5-6).</p>
+      <p>However, if infrastructure is destroyed or signal quality is reduced to a significant level, any messages sent through mobile networks or standard broadcast radio networks are rendered useless.</p>
+      <p>The usefulness of low frequency radio was made very clear In the aftermath of Hurricane Katrina, where “operators of amateur, or ham, radio have been instrumental in helping residents in the hardest hit areas, including saving stranded flood victims in Louisiana and Mississippi” (Krakow, 2006, para 2). These “ham” radio operators filled a massive gap in communications for emergency operations post hurricane Katrina, as “After Katrina, amateur radio provided many more volunteer operators to support an even larger host of served agencies… hundreds of amateur radio operators who travelled to the devastated area and provided critical communications capabilities. This work continued for many weeks. Katrina almost wiped out communications in southern Mississippi. Both Public Service and amateur communications were decimated. Local communications workers and volunteer amateur operators, suffering their own personal obstacles were greatly reduced in numbers, equipment and capacity during the storm.” (Sarret, 2006, p2).</p>
+      <p>Regularly in the large bushfires Australia experiences, remote areas which many mobile provider customers usually receive limited signal will receive none (Averill, 2018). This signal decrease is created by the intense heat of bushfires. In such intense fires, gas plasma is produced which reacts with the surrounding magnetic field, and this greatly has a negative impact on digital mobile phone signal strength. Digital mobile phone signal and Broadcast radio is often vastly affected by the damage caused to repeating towers and other such infrastructure. (Carrat, 2019). This is greatly comparable to the situation with Hurricane Katrina in 2006 where the communications infrastructure was damaged by water instead of fire, yet giving the same effective result.</p>
+      <p>It is important to note that “Rural fire service operations may use frequencies in the 400-450MHz range to communicate, but these signals are weakened during fire, in which case they may use frequencies in the 100-180MHz range. At this wavelength, signal strength doesn’t degrade as badly and can sustain better communication” (Carrat, 2019; para 7). Therefore it can be seen that in such high intensity bushfires that generate such plasma, the only effective form of electronic communication is via radio transceivers in the 100-180 MHz range. No calls, text or MMS can be sent or received on digital mobile networks, neither with videos. Broadcast radio would also be similarly affected – making it very difficult for residents in dangerous zones to have updates, evacuation warnings and directions to shelter.</p>
+      <p>As SSTV requires a bandwidth of merely 3 KHz, it is an ideal way to send and receive images. All sorts of images could be sent to and from base such as status updates, new orders, photos or Videos “on the scene” – for those firefighters operating on the ground and paramedics. And also for civilians, for receiving status updates, evacuation warnings, directions to shelter etc. Similarly this project could be utilised for Military applications, for when normal communications are down or offline.</p>
+      <p>This project could also be utilised for Paramedics working in remote locations, such as First Responders at mine sites or even for the Royal Flying Doctors. Images and video could be sent and received if normal communications systems are non-functioning, have severely degraded signal, or do not have sufficient infrastructure in the area to be operable. With respect to remote Doctor Consultations, this project could provide a way for doctors to give consultations for those living far from any regional centre and for pictorial information to be sent/received from Doctor to patient.</p>
+      <p>This project could be utilised is in agricultural projects in remote areas bereft of infrastructure for digital mobile phone service, or even in the developing world - giving the opportunity to send images and data from point to point.</p>
+      <h3>Description</h3><br>
+      <p>This will begin by building a proof of concept by using a Raspberry pi 3 or 4 board, an integrated touch screen housing, and ganged 18650 battery removable power supplies, a USB microphone and a miniature speaker connected by the 3.5mm output jack present on the Raspberry Pi board. This initial proof of concept will run an android emulator, running android based apps. Later this will be brought forward to designing a prototype with outsourced coding, proper unit housing and an intregrated camera module.</p>
+
+      <h3>Tools and Technologies</h3><br>
+      <p>The tools and tech that are required to begin our project vary from locally sourced hardware to specific custom-made apps in future state. To begin, this section will start to run through the required items to get this project underway. At the core of the project we will be running on two 8GiB RAM Raspberry Pi 4s. The Raspberry Pi is a very versatile, customizable small single-board computer capable running many program language interrupters usually on a Debian-based (32-bit) Linux distribution OS. With a Broadcom BCM2711B0 1.5 GHz quad-core A72 64-bit processor and 8 GiB LPDDR4-3200 SDRAM at the heart of the Raspberry Pi, this will make encoding images and decoding sound bites possible in a fast and efficient manner. Along with the Raspberry Pi, we will also need the appropriate peripherals like, mouse, keyboard, SD card, speaker and USB microphone. At some point in the future state development we can move to touchscreen for greater portability. We have chosen to run with an Android based OS called LineageOS 16.0 (Android 9) because all the necessary drivers are all bundled and included in this distro. This freeware OS is released by Konstakang and is available <a href="https://konstakang.com/devices/rpi4/LineageOS16.0/" target = blank>here</a>. The Android platform has many pre-existing repositories (app stores) available to users with a variety of apps and resources. For our project we have decided to run 2 apps called <a href="https://play.google.com/store/apps/details?id=xdsopl.robot36>" target=blank>Robot36</a> and <a href="https://play.google.com/store/apps/details?id=om.sstvencoder&hl=en&gl=US" target=blank>SSTV Encoder</a>. One is primarily for encoding images and sending sound bites using SSTV encoder the other for receiving sound bites and decoding them to images using Robot36.</p>
+      <p>This brings us to the transmission of the data. For data transmission between the 2 RPI’s (Raspberry Pi’s) we will be using 2x Baofeng UV-5R ham radios. A ham radio is a type of amateur radio that uses the radio frequency spectrum for non-commercial exchanges of messages, in our case images sound bites. The frequency range available in these handheld units are UHF (136 - 174MHz) & UHF (400 - 520MHz) for transmitting and VHF (136 - 174MHz), UHF (400 - 520MHz) & FM Broadcast (68-108MHz) for receiving. On the sending unit, linking the RPI to the ham radios we’ll be using the built-in audio-out jack on the RPI and the mic input on the ham radio. A standard 3.5mm to 3.5mm audio cable will work just fine for this. Just to note, when sending the sound bite to the ham radio from the RPI, the PPT (push to talk) button will need to be held down during the duration of the sending message (may be modified in future state). On the receiving unit, we will be utilizing the speaker-out on the ham radio to plug in a portable audio speaker and for the RPI we’ll be using a USB mic to feed the sound bite in. While this speaker-out and mic-in is prone to interference we will be looking at USB sound cards that can driven by the Android OS.</p>
+
+      <h3>Skills</h3><br>
+      <p>Skills for this project will be ever increasing and changing as component ideas manipulate and unfold to include more features. To begin, required skills will be:  <br>
+        <ul.style3>
+          <li>Flashing a USB with LineageOS from Win or OSX.</li> 
+          <li>Basic understanding of Android OS and installing apps.  </li> 
+            <li>Very basic understanding of computer peripherals.</li>  
+            <li>Apply for Amateur non-assigned Foundation licence. </li> 
+            <li>Understanding of the use between 2 ham radios.</li>  
+            <li>Basic usage of a Raspberry Pi.  </li> 
+          </ul.style3></p>
+          <p>Future state ideas like broadcast encryption, platform migration and a stand-alone app will require further education and a greater skillset to rollout. Skills like: <br>
+            <ul.style3>
+              <li>Concept of OOP (Object Oriented Programing) for security. </li> 
+    <li>Multi-platform architecture knowledge.  </li> 
+    <li>A Programming Languages such as C#, Java, PHP or Python.  </li> 
+    <li>Project management if outsourcing.  </li> 
+    </ul.style3></p>
+    <p>Again, as this project develops and grows in complexity, the above skills will be expanded upon and be required as new modules and features are added. Integrating to other platforms like Linux, Windows and MAC OSX could grow the potential for integration into other communication apps.</p>
+
+<h3>Outcomes</h3><br>
+    <p>The main outcome for our project is to create an imaging communication tool using a combination of new and older technologies. As a team project, some of the possible problems this may solve we’re hoping will be in the emergency service space. Looking at vulnerabilities with current communications during natural disasters lead to this project idea. Some of the communication issues facing emergency services today are failure of the wired telephone system (including internet), overload of the cell/mobile network, plasma interference from bushfires and incompatible radio systems. To start with, we’re setting this up to run off the VHF bandwidth because there are repeater stations Australia wide. However, changing the ham radios from the VHF range to an even lower bandwidth radio in the KHz range may increase communication distance & quality while providing additional support on the front line of disaster relief by emergency controllers at a safer distance.</P>
+</div>
+		<div class="extra2 margin-btm container">
+
+<h2>References</h2><br>
+<p>Please find the full reference list below.</p>
+<span id="dots2">...</span><br><span id="more2">
+<p>Averil, Z, 2018. Daily Mercury .“Residents in bushfire affected areas lose mobile service”, 28th November 2018, Blog post, viewed 24th September 2020, [https://www.dailymercury.com.au/news/residents-in-bushfire-affected-areas-lose-mobiles/3588717]</p>
+<p>BaoFeng Tech 2020, BaoFeng UV-5R - Specs, viewed 16 October 2020, [https://baofengtech.com/uv-5r]  </p>
+<p>ACMA 2020, Amateur Radio Licenses, visited 17 October 2020, [https://www.acma.gov.au/amateur-radio-licences] </p>
+<p>Carrat, J. 2019. The Conversation. ”As flames encroach, those at risk may lose phone signal when they need it most.” 13th November 2019, Blog Post, viewed 18th of October 2020, [https://theconversation.com/as-flames-encroach-those-at-risk-may-lose-phone-signal-whenthey-need-it-most-126827] </p>
+<p>Inan, A. 2020, “ Robot 36 – SSTV encoder”, Google Play, viewed 21st of September 2020, [https://play.google.com/store/apps/details?id=xdsopl.robot36] </p>
+<p>ITU News 2020, “The value of broadcast radio in an emergency”, 27th of February 2020 .ITU News, viewed 18th of October 2020, [https://news.itu.int/the-value-of-broadcast-radio-in-an-emergency/] </p>
+<p>Kracow,G 2006, NBC News. “Ham Radio Operators to the Rescue after Kartrina”, date unknown, viewed 18th October 2020, [http://www.nbcnews.com/id/9228945/ns/technology_and_science-wireless/t/ham-radio-operators-rescue-after-katrina/] </p>
+<p>LineageOS 2020, “LineageOS 16.0 (Android 9) for Raspberry Pi 4”,  July 13, 2020, viewed 16 October 2020, [https://konstakang.com/devices/rpi4/LineageOS16.0/]  </p>
+<p>Lee, M. 2019. Communication Problems in Disasters, 28 September 2019, “Communication Problems in Disasters – Disaster Psychology”, viewed 17 October 2020, [https://martinlea.com/communication-problems-in-disaster-situations/]  </p>
+<p>Miller, O 2020, “SSTV decoder”, Google Play, viewed 21st of September, [https://play.google.com/store/apps/details?id=om.sstvencoder]</p>
+ <p>LineageOS 2020,  06 Janurary 2020, [DEV] LineageOS 16.0 (Android 9) for Raspberry Pi 4 B - Raspberry Pi Forums, viewed 15 October 2020, [https://www.raspberrypi.org/forums/viewtopic.php?f=73&t=261228]  </p>
+<p>Sarret, g. 2006. “Hurricane Katrina Amateur Radio Emergency Communications Relief Effort Operations Review Summary”, ARRL, The national association for Amateur Radio, viewed 18th October 2020, [https://transition.fcc.gov/pshs/docs/advisory/hkip/GSpeakers060306/ACT1045.pdf] </p>
+<p>Wikipedia 2020, 11 October 2020,  Amateur radio – Wikipedia, viewed 15 October 2020, [https://en.wikipedia.org/wiki/Amateur_radio#Ham_radio]  </p>
+<p>Wikipedia 2020, 15 October 2020, Raspberry Pi - Wikipedia, viewed 15 October 2020, [https://en.wikipedia.org/wiki/Raspberry_Pi] </p>
+</span><button onclick="myFunction2()" id="myBtn2">Read more</button>
+</div>
+		</div>
+
+	</div>
+<!-- </div> -->
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+</body>
+</html>
