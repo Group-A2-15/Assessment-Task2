@@ -21,6 +21,23 @@ Released   : 20131115
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
 
 </head>
 <body>
@@ -50,7 +67,7 @@ Released   : 20131115
 			<!-- <div class="ebox1"> -->
 				<div class="title">
 					<h2>About Us</h2>
-					<span class="byline">Meet the six team members that make up Group 15</span>
+					<span class="byline">Meet the six team members that make up Team 15</span>
 				</div>
 				<p>A short bio on each member of the team, including our interest in I.T., along with links to our individual GitHub pages.<br>
 				<p><b><a href="https://annalee5.github.io/Assignment1/" target=blank>Anna Lee</b></a> - I am Melbourne born and bred, but I am of Chinese heritage. Before Covid stopped the world, I was a Marketing Manager for a hospitality group, of which I really loved doing because of my passion for food and wine. With plenty of unforeseen spare time up my sleeve due to the pandemic, I have been keeping myself busy reading (definitely want to learn more about Cosmology in particular), knitting (currently attempting a sweater), going for bike rides (damn you steep inclines!) and learning the basics of HTML/CSS. After having some time on my hands this year, I started learning HTML/CSS basics and really found myself enjoying it. This sparked an idea to take my learning to a more formal setting, which is how I got into this course. I’m very excited to see what potential this can bring, both personally and professionally! Student ID: s3875109</p>
@@ -99,43 +116,30 @@ Released   : 20131115
 							<div class="extra2 margin-btm container">
 								<div class="title">
 									<h2>Group Reflection</h2>
-									<p>The results were interesting to see for the three personality tests,</p>
+									<p>The results were interesting to see for the three personality tests</p>
+									<span id="dots">...</span><br><span id="more">
+									<h3>Individual Reflection</h3><br>
+									<p><b>Anna</b> - Surprisingly, I found this group experience to be as cohesive as a group can get. Every member bought their experience, their knowledge and their thoughts and opinions on how the group and the workload should run. As there was quick decision making, this resulted in us being able to use our time effectively to focus on the work at hand. This was immediate from the start, which meant we could accomplish this assignment within the timeframe and without the need to feel pressured to produce subpar work.<br>
+										Some of the difficulties we experienced was perhaps being a group of the larger side, with six members, meant that the coordination of meetings took some time to work out. Not all members could make each meeting, however this is not too dissimilar to a workplace, and what really helped in this case was the use of the meeting agendas, post meeting notes and recordings. This meant any member who could not make the meeting, could easily catch up on our discussions. As we met twice a week, this meant the ability to catch up was easily done, as opposed to if we met once a week for a lengthier amount of time. <br>
+										Overall, I believe we all performed very well collectively as a group on this assignment. We all contributed a unique perspective and skillset and we all came to understand each other relatively quickly too. I look forward to working together again on the next assignment. </p>
+									<p><b>Christopher</b> - 	</p>
+										<p><b>James</b> - I found that this group flowed very well. I have had a series of personal issues this Semester, if I hadn’t committed to this group work, I probably would have dropped out.  A few things can be improved, like confirming times for meetings regularly (which we became proficient at, eventually), checking correct times re: AEST/AWST (me), setting alarms for meetings ACTUAL times (me), and perhaps more regular meetings or active group chats to check in with each other (having teams on my phone made this so much easier). It was surprising how well it flowed together. Was also surprising at how kind and understanding everyone is. I have learned from this that group work isn’t always as bad as I expect it to be, and I should take a more positive minded approach to further teamwork and be less of a lone wolf. </p>
+										<p><b>Michelle</b> - Firstly I think it is important to say that the group experience with the assignment has many similarities to team work in real work scenarios. Advantages include the ability to do more work over more areas than anyone is able to do alone, the ability to tap people’s different expertise and work preferences, and the opportunity to learn from others. Disadvantages include the difficulty of coordinating meeting and contribution times, although in a work environment this is normally countered by having set work hours versus the vastly varying schedules of distance education students.<br>
+											Regardless of external pressures a single person cannot rely on last minute ‘all nighters’ or extension requests to get the assignment completed, this is a group effort. I am enjoying working with people with vastly different interests to my own, particularly with security and some of the new technologies. It is leading me to learn and look into areas I would probably otherwise gloss over and it will be an interesting challenge to do the project assignment with technology that I have no experience with.</P>
+										<p><b>Rebecca</b> -Our team members have all expressed a genuine interest in this course, as well as working together with our elected group. I am not the most social individual however I was surprised by the ease in which our group formed and organised ourselves. Our individual project ideas are reflective of how diverse our interests are and yet we are all excited to collaborate and learn about the technology behind our project idea and its prospects.
+											Our focus throughout this assignment was to establish an open line of communication and understanding while we worked towards completing our individual tasks. Moving forward, I hope to see us expand on our use of compulsory tools such as MS Teams, and make more use of other available applications.<br>
+											Despite this, I have learned that with clear goals and delegation everyone involved feels a sense of responsibility and ownership. It is also quite motivating working with individuals who display qualities that you need to improve on, I personally aim to improve on my personal work ethic as a result. <br>
+						Overall, what a wonderful group of people and it has been a pleasure working with Anna, Michelle, Christopher, James and Shevlyn.</p>
+
+
+										<p><b>Shevlyn</b> -Developing this assessment was definitely a fun an amazing learning experience. Producing work in a group meant involvement of all members and work being divided, this is where I think our group did well in managing our assigned components of the assessment. Group meetings made it easier to communicate with different personalities who know so much and their different interests and knowledge enables us to learn so much from each other. It was somewhat difficult to attend all meetings this may be due to timing differences and other commitments. However, our group certainly exhibit skills of management and organisation.  I’m happy that everyone still knew their responsibilities and managed to complete the required task. I think communication is the most important factor in group progression. I may have lacked some effective communication, but regardless our group was very open and demonstrated support, everyone had their chance to speak. At the beginning of the assessment, I initially thought that we may have delayed our starting time while we were still figuring out the work and introducing ourselves, but we ultimately got what we had to accomplish on time. </p>
+								</span><button onclick="myFunction()" id="myBtn">Read more</button>
 								</div>
 
 
 
 															</var>	<a href="index.html" class="button">Home</a>
 						</div>
-
-			<!-- <div class="ebox2">
-				<div class="title">
-					<h2>Interview</h2>
-					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-				</div>
-				<p>Explore our interview with an I.T. Security Professional, NAME, from INDUSTRY.</p>
-				<a href="#" class="button">Read more</a>
-			</div>
-
-		</div>
-
-		<div class="extra2 container">
-			<div class="ebox1">
-				<div class="title">
-					<h2>IT Technologies</h2>
-					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-				</div>
-				<p>Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet. Pellentesque viverra vulputate enim.</p>
-				<a href="#" class="button">Read more</a>
-			</div>
-
-			<div class="ebox2">
-				<div class="title">
-					<h2>Project Idea</h2>
-					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-				</div>
-				<p>Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. </p>
-				<a href="#" class="button">Read more</a>
-			</div> -->
 
 		</div>
 
